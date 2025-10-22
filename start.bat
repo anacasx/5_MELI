@@ -1,0 +1,3 @@
+@echo off
+echo Starting MELI Orders API...
+mvnw spring-boot:run
