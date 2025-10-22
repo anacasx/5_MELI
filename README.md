@@ -58,6 +58,14 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 ```
 
+## Run the Application
+Run the application (Linux):
+```bash
+./start.sh
+```
+
+The application will start on http://localhost:8080.
+
 ---
 
 ## 🔍 Testing the API
