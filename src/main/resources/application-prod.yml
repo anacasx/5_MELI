@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/ordersdb_prod}
+    username: ${DB_USERNAME:meli_user}
+    password: ${DB_PASSWORD:meli2025}
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+  profiles:
+    active: prod
+server:
+  port: 8082
