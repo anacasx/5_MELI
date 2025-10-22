@@ -18,7 +18,7 @@ This project is a Spring Boot 3.0 application designed to manage orders for an o
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/anacasx/5_MELI.git
-    cd meli-orders-system
+   cd meli-orders-system
 
 ---
 
@@ -84,15 +84,23 @@ Import the Postman collection (MELI_Orders_API.postman_collection.json) into Pos
 
 ## 🧩 Project Structure
 ```bash
-src/main/java/com/meli/orders/
-├── entity/
-│   └── Order.java               # Entity representing an order
-├── controller/
-│   └── OrderController.java     # REST controller for CRUD operations
-├── service/
-│   └── OrderService.java        # Business logic for order management
-└── repository/
-    └── OrderRepository.java     # JPA repository for database operations
+meli-orders-system/
+├── src/
+│   └── main/java/com/meli/orders/
+│       ├── controller/
+│       │   └── OrderController.java
+│       ├── entity/
+│       │   └── Order.java
+│       ├── repository/
+│       │   └── OrderRepository.java
+│       ├── service/
+│       │   └── OrderService.java
+│       └── Application.java
+├── MELI_Orders_API.postman_collection.json
+├── start.sh
+├── README.md
+├── DECISIONS.md
+├── pom.xml
 ```
 
 ---
@@ -102,7 +110,3 @@ src/main/java/com/meli/orders/
 The code adheres to Java naming conventions and includes JavaDoc comments for all public classes, methods, and fields.
 
 The project follows the MVC pattern for modularity and maintainability.
-
----
-
-
