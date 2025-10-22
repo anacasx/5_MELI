@@ -84,7 +84,7 @@ Import the Postman collection (MELI_Orders_API.postman_collection.json) into Pos
 
 ## 🧩 Project Structure
 ```bash
-meli-orders-system/
+5_MELI/
 ├── src/
 │   └── main/java/com/meli/orders/
 │       ├── controller/
