@@ -32,7 +32,7 @@ src/main/java/com/meli/orders/
 │   └── OrderService.java        # Business logic for order management
 └── repository/
     └── OrderRepository.java     # JPA repository for database operations
-    ```
+```
 
 ---
 
