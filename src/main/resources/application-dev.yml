@@ -1,14 +1,12 @@
 spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5432/ordersdb_dev
-    username: meli_user
-    password: meli2025
-  jpa:
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
-    hibernate:
-      ddl-auto: update
+ datasource:
+  url: jdbc:postgresql://localhost:5432/ordersdb_dev
+  username: meli_user
+  password: meli2025
+  driver-class-name: org.postgresql.Driver
+ jpa:
+  hibernate:
+    ddl-auto: update
     show-sql: true
-  profiles:
-    active: dev
 server:
-  port: 8080
+ port: 8080

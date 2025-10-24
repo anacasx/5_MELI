@@ -3,12 +3,10 @@ spring:
     url: jdbc:postgresql://localhost:5432/ordersdb_test
     username: meli_user
     password: meli2025
+    driver-class-name: org.postgresql.Driver
   jpa:
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
       ddl-auto: create-drop
     show-sql: true
-  profiles:
-    active: test
 server:
   port: 8081

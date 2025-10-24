@@ -1,0 +1,5 @@
+com/meli/orders/entity/Order.class
+com/meli/orders/service/OrderService.class
+com/meli/orders/Application.class
+com/meli/orders/repository/OrderRepository.class
+com/meli/orders/controller/OrderController.class
