@@ -86,16 +86,19 @@ Import the Postman collection (MELI_Orders_API.postman_collection.json) into Pos
 ```bash
 5_MELI/
 ├── src/
-│   └── main/java/com/meli/orders/
-│       ├── controller/
-│       │   └── OrderController.java
-│       ├── entity/
-│       │   └── Order.java
-│       ├── repository/
-│       │   └── OrderRepository.java
-│       ├── service/
-│       │   └── OrderService.java
-│       └── Application.java
+│   └── main/
+│       ├── java/com/meli/orders/
+│       │   ├── controller/OrderController.java
+│       │   ├── entity/Order.java
+│       │   ├── repository/OrderRepository.java
+│       │   ├── service/OrderService.java
+│       │   └── Application.java
+│       └── resources/
+│           ├── application.properties
+│           ├── application.yml
+│           ├── application-dev.yml
+│           ├── application-test.yml
+│           ├── application-prod.yml
 ├── MELI_Orders_API.postman_collection.json
 ├── start.sh
 ├── README.md
